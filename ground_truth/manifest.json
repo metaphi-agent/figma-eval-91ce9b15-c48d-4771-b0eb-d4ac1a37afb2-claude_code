@@ -1,0 +1,12 @@
+{
+  "figma_file_key": "8kN3j0sa517TcW9WpZG2P9",
+  "total_frames": 1,
+  "frames": [
+    {
+      "name": "Landing Page",
+      "node_id": "5:573",
+      "gt_image": "Landing-Page.png",
+      "target_route": "/"
+    }
+  ]
+}

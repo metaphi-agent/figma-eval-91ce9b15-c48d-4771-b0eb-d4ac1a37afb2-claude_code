@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Design tokens extracted from Figma */
+@theme {
+  /* Fonts */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Brand Colors */
+  --color-primary: #4CAF4F;
+  --color-secondary: #263238;
+
+  /* Neutral Colors */
+  --color-white: #FFFFFF;
+  --color-silver: #F5F7FA;
+  --color-light-grey: #E8E8E8;
+  --color-grey: #717171;
+  --color-dark-grey: #4D4D4D;
+  --color-black: #263238;
+
+  /* Shades */
+  --color-shade-s2: #89939E;
+  --color-shade-s5: #ABD1AF;
+
+  /* Tints */
+  --color-tint-t4: #E9F8EA;
+  --color-tint-t5: #F5FBF5;
+
+  /* Text Colors */
+  --color-text-gray-300: #D9DBE1;
+  --color-text-gray-900: #18191F;
+
+  /* Shadows */
+  --shadow-8px: 0 8px 16px rgba(171, 190, 209, 0.4);
+  --shadow-card: 0 2px 4px rgba(171, 190, 209, 0.2);
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom utility classes */
+.container-custom {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 144px;
+  padding-right: 144px;
+}
+
+@media (max-width: 1280px) {
+  .container-custom {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-custom {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
