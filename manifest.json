@@ -1,0 +1,34 @@
+{
+  "session_id": "session_20260130_165934",
+  "created_at": "2026-01-30T16:59:34.168495+00:00",
+  "steps": [
+    {
+      "name": "Step 1: Extract from Figma",
+      "status": "done",
+      "at": "2026-01-30T16:59:34.168495+00:00"
+    },
+    {
+      "name": "Step 2: Export Ground Truth",
+      "status": "done",
+      "at": "2026-01-30T16:59:37.542914+00:00"
+    },
+    {
+      "name": "Step 6: Generate Components",
+      "status": "done",
+      "at": "2026-01-30T16:59:39.423660+00:00"
+    },
+    {
+      "name": "Step 7: Deploy and Push",
+      "status": "done",
+      "at": "2026-01-30T16:59:41.099982+00:00"
+    }
+  ],
+  "artifacts": {
+    "figma_file_key": "8kN3j0sa517TcW9WpZG2P9",
+    "figma_file_key_at": "2026-01-30T16:59:35.108809+00:00",
+    "preview_url": "https://ta-01kg7xd0bjc82bfmgmb8mfkh13-5173.wo-cwkhwqsdvkem91d5yjcthhvkx.w.modal.host",
+    "preview_url_at": "2026-01-30T16:59:36.224204+00:00"
+  },
+  "notes": [],
+  "updated_at": "2026-01-30T16:59:41.099982+00:00"
+}
