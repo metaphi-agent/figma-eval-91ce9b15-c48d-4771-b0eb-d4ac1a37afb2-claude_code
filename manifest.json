@@ -26,10 +26,16 @@
   "artifacts": {
     "figma_file_key": "8kN3j0sa517TcW9WpZG2P9",
     "figma_file_key_at": "2026-01-30T16:59:35.108809+00:00",
-    "preview_url": "https://ta-01kg7xd0bjc82bfmgmb8mfkh13-5173.wo-cwkhwqsdvkem91d5yjcthhvkx.w.modal.host",
-    "preview_url_at": "2026-01-30T16:59:36.224204+00:00"
+    "preview_url": "https://ta-01kgyerjkg6qd5fpj3ryb7x1f9-5173.wo-tk2k4ttt9brd0qnvn9i43szud.w.modal.host",
+    "preview_url_at": "2026-02-08T11:10:00.000000+00:00",
+    "deployed_url": "https://storage.googleapis.com/metaphi-agent/webapps/91ce9b15-c48d-4771-b0eb-d4ac1a37afb2/index.html",
+    "deployed_url_at": "2026-02-08T11:10:00.000000+00:00",
+    "github_repo_url": "https://github.com/metaphi-agent/figma-eval-91ce9b15-c48d-4771-b0eb-d4ac1a37afb2-claude_code",
+    "github_repo_url_at": "2026-02-08T11:10:00.000000+00:00"
   },
   "notes": [],
-  "updated_at": "2026-02-08T11:04:44.780309+00:00",
-  "preview_url": "https://ta-01kgyerjkg6qd5fpj3ryb7x1f9-5173.wo-tk2k4ttt9brd0qnvn9i43szud.w.modal.host"
+  "updated_at": "2026-02-08T11:10:00.000000+00:00",
+  "preview_url": "https://ta-01kgyerjkg6qd5fpj3ryb7x1f9-5173.wo-tk2k4ttt9brd0qnvn9i43szud.w.modal.host",
+  "deployed_url": "https://storage.googleapis.com/metaphi-agent/webapps/91ce9b15-c48d-4771-b0eb-d4ac1a37afb2/index.html",
+  "github_repo_url": "https://github.com/metaphi-agent/figma-eval-91ce9b15-c48d-4771-b0eb-d4ac1a37afb2-claude_code"
 }
