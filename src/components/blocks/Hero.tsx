@@ -8,7 +8,7 @@ export default function Hero() {
           {/* Left Content */}
           <div className="flex-1 flex flex-col gap-8">
             <div className="flex flex-col gap-4">
-              <h1 className="text-[64px] font-semibold leading-[76px] text-dark-grey">
+              <h1 className="text-[64px] font-semibold leading-[76px] text-secondary">
                 Lessons and insights{' '}
                 <span className="text-primary">from 8 years</span>
               </h1>

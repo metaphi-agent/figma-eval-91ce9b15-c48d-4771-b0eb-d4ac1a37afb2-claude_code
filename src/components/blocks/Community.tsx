@@ -23,7 +23,7 @@ export default function Community() {
         <div className="flex flex-col gap-4">
           {/* Section Header */}
           <div className="text-center max-w-[630px] mx-auto">
-            <h2 className="text-[36px] font-semibold leading-[44px] text-black">
+            <h2 className="text-[36px] font-semibold leading-[44px] text-dark-grey">
               Manage your entire community in a single system
             </h2>
             <p className="text-base leading-6 text-grey mt-2">
@@ -42,10 +42,10 @@ export default function Community() {
                 <img
                   src={feature.icon}
                   alt={feature.title}
-                  className="w-[150px] h-auto mb-4"
+                  className="w-[65px] h-auto mb-4"
                   loading="lazy"
                 />
-                <h3 className="text-[28px] font-bold leading-[36px] text-black">
+                <h3 className="text-[28px] font-bold leading-[36px] text-dark-grey">
                   {feature.title}
                 </h3>
                 <p className="text-sm leading-5 text-grey">

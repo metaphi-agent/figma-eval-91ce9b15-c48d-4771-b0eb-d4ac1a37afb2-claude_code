@@ -23,7 +23,7 @@ export default function CommunityUpdates() {
         <div className="flex flex-col items-center gap-4">
           {/* Section Header */}
           <div className="text-center max-w-[630px]">
-            <h2 className="text-[36px] font-semibold leading-[44px] text-black">
+            <h2 className="text-[36px] font-semibold leading-[44px] text-dark-grey">
               Caring is the new marketing
             </h2>
             <p className="text-base leading-6 text-grey mt-2">
@@ -32,21 +32,25 @@ export default function CommunityUpdates() {
           </div>
 
           {/* Blog Cards */}
-          <div className="flex items-stretch justify-between gap-[17px] w-full mt-4">
+          <div className="flex items-start justify-between gap-[17px] w-full mt-4">
             {blogCards.map((card, index) => (
               <div
                 key={index}
                 className="flex-1 flex flex-col items-center"
-                style={{ marginTop: index === 0 ? '-96px' : '0' }}
               >
+                {/* Image Container */}
                 <img
                   src={card.image}
                   alt={card.title}
-                  className="w-full rounded-lg"
+                  className="w-[368px] h-[286px] rounded-lg object-cover"
                   loading="lazy"
                 />
-                <div className="bg-silver rounded-lg shadow-md p-4 -mt-24 mx-4 relative z-10 w-[calc(100%-32px)]">
-                  <h3 className="text-[20px] font-semibold leading-7 text-grey text-center mb-4">
+                {/* Content Card - overlapping the image */}
+                <div
+                  className="bg-silver rounded-lg p-4 w-[317px] -mt-24 relative z-10 flex flex-col items-center gap-4"
+                  style={{ boxShadow: '0 8px 16px rgba(171, 190, 209, 0.4)' }}
+                >
+                  <h3 className="text-[20px] font-semibold leading-7 text-grey text-center">
                     {card.title}
                   </h3>
                   <a
